@@ -1,0 +1,8 @@
+22754/99224 reviews com nota menor que 4
+22.9% menor que 4
+4.09/5 - média geral das reviews
+
+review_score:
+    nota 1	11424
+    nota 2	3151
+    nota 3	8179
