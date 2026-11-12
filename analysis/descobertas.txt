@@ -3,6 +3,13 @@
 4.09/5 - média geral das reviews
 
 
+porcentagem de entregas dentro do tempo com notas abaixo e igual ou superior a 3:
+    notas boas: 89.72
+    notas ruins: 61.46
+
+    Hipótese: parte dessas reclamações podem ser de atrasos.
+    
+
 review_score	
     nota 1	11424
     nota 2	3151
