@@ -2,14 +2,15 @@
 14.7% menor que 3
 4.09/5 - média geral das reviews
 
-
-porcentagem de entregas dentro do tempo com notas abaixo e igual ou superior a 3:
-    notas boas: 89.72
-    notas ruins: 61.46
-
-    Hipótese: parte dessas reclamações podem ser de atrasos.
-    
-
 review_score	
     nota 1	11424
     nota 2	3151
+
+porcentagem de entregas dentro do tempo com notas abaixo e igual ou superior a 3:
+    notas ruins: 74.28 
+    notas boas: 92.28
+    
+    Diferença de 18% é bem significativa. logo podemos assumir que parte das reclamações provavelmente são por causa do prazo
+    
+    
+
