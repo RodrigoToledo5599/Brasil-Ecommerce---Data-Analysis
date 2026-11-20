@@ -7,10 +7,14 @@ review_score
     nota 2	3151
 
 porcentagem de entregas dentro do tempo com notas abaixo e igual ou superior a 3:
-    notas ruins: 74.28 
-    notas boas: 92.28
+    notas ruins: 69.06 
+    notas boas: 92.00
     
-    Diferença de 18% é bem significativa. logo podemos assumir que parte das reclamações provavelmente são por causa do prazo
     
     
 
+review_score	dias de atrasos em média
+1	            12.836885
+2	            10.125711
+
+pode-se concluir que a diferença entre os dias de atraso são irrelevantes para a análise
