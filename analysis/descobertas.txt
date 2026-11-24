@@ -1,20 +1,43 @@
+Base: 99.224 reviews (1 linha por review; itens e pagamentos agregados por pedido)
+
 14575 reviews com nota menor que 3
 14.7% menor que 3
 4.09/5 - média geral das reviews
 
-review_score	
+review_score
     nota 1	11424
     nota 2	3151
 
-porcentagem de entregas dentro do tempo com notas abaixo e igual ou superior a 3:
-    notas ruins: 69.06 
-    notas boas: 92.00
-    
-    
-    
 
-review_score	dias de atrasos em média
-1	            12.836885
-2	            10.125711
+Entregas no prazo (apenas pedidos entregues; entregue no dia previsto = no prazo):
+    notas ruins (< 3):  67.61%
+    notas boas (>= 3):  97.13%
 
-pode-se concluir que a diferença entre os dias de atraso são irrelevantes para a análise
+
+Porcentagem de pedidos atrasados por nota:
+    nota 1	36.6%
+    nota 2	18.9%
+    nota 3	 8.8%
+    nota 4	 3.4%
+    nota 5	 1.9%
+
+
+Nota média:
+    pedidos no prazo	4.29
+    pedidos atrasados	2.27
+
+
+Dias de atraso (somente reclamações de pedidos atrasados):
+review_score	média	mediana
+1	            12.36	8.5
+2	            10.23	7.0
+
+
+Conclusões:
+- O atraso na entrega é o principal fator ligado a notas ruins: a nota média cai de 4.29 para 2.27
+  quando o pedido atrasa, e quanto menor a nota, maior a porcentagem de pedidos atrasados.
+- 32.4% das notas ruins (de pedidos entregues) vieram de entregas atrasadas.
+- A nota cai já nos primeiros dias de atraso (4.11 -> 3.29 com 1-3 dias) e continua caindo até
+  ~1 semana de atraso (1.68), quando estabiliza (ver 02_atraso_e_notas.ipynb).
+- Cerca de 2/3 das notas ruins são de pedidos entregues no prazo -> o motivo delas ainda precisa
+  ser investigado (categoria, vendedor, frete, comentários).
